@@ -1,0 +1,263 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.mainBody {
+  width: 70%;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+.mainFlex {
+  display: flex;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.heading-divider {
+  height: 1px;
+  background-color: #ddd;
+  width: 100%;
+}
+
+/* NAVIGATION BAR */
+.navBar {
+  height: 50px;
+  background-color: rgb(19, 74, 157);
+  display: flex;
+  align-items: center;
+  /* border-radius: 5px; */
+  margin-bottom: 25px;
+}
+
+.navBar img {
+  width: 40px;
+  margin-left: 245px;
+}
+
+.navBar input {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(25, 58, 108);
+  margin-left: 130px;
+}
+
+/* FIRST SECTION */
+.firstSection {
+  display: block;
+  margin-right: 30px;
+  width: 15%;
+}
+
+.firstSection button {
+  width: 100%;
+  text-align: start;
+  margin-bottom: 5px;
+  border: none;
+  color: rgb(88, 88, 205);
+  background-color: whitesmoke;
+  padding: 5px 20px;
+}
+
+.firstSection button:hover {
+  background-color: rgb(223, 222, 222);
+  cursor: pointer;
+}
+
+/* SECOND SECTION */
+.secondSection {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding-top: 5px;
+  background-color: white;
+}
+
+.onlineFriends {
+  display: flex;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 0px;
+}
+
+.onlineFriends p {
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+.onlineFriends p:hover {
+  cursor: pointer;
+}
+
+.onlineFriends em {
+  font-size: 13px;
+  color: #525252;
+}
+
+.onlineFriends div {
+  margin-right: 200px;
+}
+
+.buttonFindFriend {
+  color: white;
+  background-color: rgb(19, 74, 157);
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  opacity: 0.8;
+  margin-right: 0px;
+}
+
+.buttonFindFriend:hover {
+  background-color: rgb(20, 51, 98);
+  cursor: pointer;
+}
+
+.findFriends {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  background-color: white;
+}
+
+.findFriends img {
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.findFriends input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.aFriend {
+  background-color: white;
+  padding: 10px;
+}
+
+.aFriend img {
+  width: 15%;
+  height: 15%;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.aFriend img:hover {
+  transform: scale(105%);
+  transition: 0.5s;
+}
+
+.miniFriendInfo h5 {
+  color: rgb(19, 74, 157);
+  margin-right: 350px;
+}
+
+.miniFriendInfo h5:hover {
+  cursor: pointer;
+}
+
+.miniFriendInfo p {
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: #525252;
+}
+
+.miniFriendInfo h6:hover {
+  cursor: pointer;
+}
+
+.miniFriendInfo a {
+  color: rgb(34, 98, 194);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.miniFriendInfo a:hover {
+  text-decoration: underline;
+}
+
+.absoulute {
+  display: flex;
+}
+
+.absoulute img {
+  width: 15px;
+}
+
+/* THIRD SECTION */
+.thirdSection {
+  width: 30%;
+}
+
+.miniNav {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.miniNav button {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: white;
+  text-align: start;
+}
+
+.miniNav button:first-child {
+  font-weight: bold;
+  background-color: rgb(225, 233, 255);
+}
+
+.miniNav button:hover {
+  background-color: rgb(179, 193, 232);
+  cursor: pointer;
+}
+
+.possibleFriends {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.possibleFriends div {
+  margin-bottom: 10px;
+}
+
+.possibleFriends p {
+  margin-bottom: 10px;
+}
+
+.aFriendFriend img {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.aFriendFriend h6 {
+  font-size: 15px;
+  color: rgb(19, 74, 157);
+}
+
+.aFriendFriend p {
+  margin-bottom: 5px;
+}
+
+.aFriendFriend a {
+  font-size: 13px;
+}

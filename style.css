@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.mainBody {
+  width: 70%;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+.mainFlex {
+  display: flex;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+/* NAVIGATION BAR */
+.navBar {
+  height: 50px;
+  background-color: rgb(19, 74, 157);
+  display: flex;
+  align-items: center;
+  /* border-radius: 5px; */
+  margin-bottom: 25px;
+}
+
+.navBar img {
+  width: 40px;
+  margin-left: 245px;
+}
+
+.navBar input {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(25, 58, 108);
+  margin-left: 130px;
+}
+
+/* FIRST SECTION */
+.firstSection {
+  display: block;
+  margin-right: 30px;
+  width: 15%;
+}
+
+.absoulute {
+  display: flex;
+  justify-content: space-between;
+}
+
+.absoulute p {
+  color: #979494;
+}
+
+.firstSection button {
+  width: 100%;
+  text-align: start;
+  margin-bottom: 5px;
+  border: none;
+  color: rgb(88, 88, 205);
+  background-color: whitesmoke;
+  padding: 5px 20px;
+}
+
+.firstSection button:hover {
+  background-color: rgb(223, 222, 222);
+  cursor: pointer;
+}
+
+/* SECOND SECTION */
+.secondSection {
+  display: block;
+  width: 25%;
+}
+
+.avatar {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar img:hover {
+  transform: scale(105%);
+  transition: 0.5s;
+}
+
+.avatar button {
+  border: none;
+  padding: 6px 45px;
+  border-radius: 5px;
+  color: rgb(88, 88, 205);
+  margin-top: 5px;
+}
+
+.avatar button:hover {
+  background-color: rgb(223, 222, 222);
+  cursor: pointer;
+}
+
+.friends {
+  background-color: white;
+  color: rgb(88, 88, 205);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.friends img {
+  border-radius: 50%;
+  cursor: pointer;
+  width: 90%;
+}
+
+.friends p {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.friends p:hover {
+  cursor: pointer;
+}
+
+.flexFriendsOne {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexFriendsTwo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* THIRD SECTION */
+.thirdSection {
+  width: 70%;
+  margin-top: 0px;
+  margin-left: 10px;
+  /* padding: 10px;
+  border-radius: 5px; */
+}
+
+.thirdSection a {
+  text-decoration: none;
+}
+
+.thirdSection a:active {
+  color: black;
+}
+
+.heading-divider {
+  height: 1px;
+  background-color: #ddd;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mainInfo {
+  background-color: white;
+  padding: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.mainInfo h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.miniInfo {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: -10px; */
+}
+
+.miniInfo div {
+  padding: 5px;
+}
+
+.miniInfo div:hover {
+  cursor: pointer;
+}
+
+.miniInfo p {
+  font-size: 12px;
+  text-align: center;
+  color: #414040;
+}
+
+.miniInfo h3 {
+  text-align: center;
+  color: rgb(19, 74, 157);
+}
+
+.mainImages {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.mainImages p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagesContainer img {
+  width: 23%;
+}
+
+.imagesContainer img:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  transition: 0.5s;
+}
+
+.theNote {
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.theNote input {
+  width: 85%;
+  height: 30px;
+  padding: 0px 5px;
+}
+
+.theNote button {
+  background-color: rgb(43, 109, 208);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.theNote button:hover {
+  background-color: rgb(19, 74, 157);
+  cursor: pointer;
+}
+
+.textLorem {
+  margin-top: 5px;
+}
+
+.miniLogoWithName {
+  display: flex;
+}
+
+.miniLogoWithName img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.miniName {
+  font-size: 15px;
+  margin-left: 10px;
+}
